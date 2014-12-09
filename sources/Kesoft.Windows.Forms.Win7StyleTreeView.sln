@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kesoft.Windows.Forms.Win7St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kesoft.Windows.Forms.Win7StyleTreeView.Tests", "Kesoft.Windows.Forms.Win7StyleTreeView.Tests\Kesoft.Windows.Forms.Win7StyleTreeView.Tests.csproj", "{96BB1D33-CDC5-452C-84B9-BBF9D3088F73}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{03B4C3FD-488E-47C3-9826-183DADDAFC4A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
